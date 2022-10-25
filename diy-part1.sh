@@ -16,3 +16,8 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+# Add AX6 support
+git remote add mi-ipq807x https://github.com/lovehackintosh/lede
+git fetch mi-ipq807x
+git cherry-pick e6d2a2641145b30f4c602c6d996a7b1d0fcff770
