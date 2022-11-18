@@ -22,4 +22,4 @@ git config user.name test
 git config user.email test@test.com
 git remote add mi-ipq807x https://github.com/lovehackintosh/lede
 git fetch mi-ipq807x
-git cherry-pick e6d2a2641145b30f4c602c6d996a7b1d0fcff770
+git cherry-pick d75bcabec1bbf0c1f99d94623653265f92005fea
