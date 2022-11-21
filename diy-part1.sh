@@ -18,7 +18,8 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 # Add AX6 support
-if [$config == "ax6.config"]
+if [$CONFIG_FILE == "ax6.config"]
 then
     git apply patch/0001-ipq807x-add-xiaomi-devices-support.patch
+    echo "Apply patch for AX6"
 fi
